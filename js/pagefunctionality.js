@@ -16,6 +16,6 @@ window.onload=function loadFirst() {
      document.getElementById("content").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "main.html", true);
+  xhttp.open("GET", "./website/main.html", true);
   xhttp.send();
 }
