@@ -15,6 +15,11 @@ body{
 #tabs{
     height: 5%;
     background-color: rgb(191, 252, 255);
+    display: grid;
+    grid-template-columns: auto;
+}
+.tabbutton{
+    grid-column: auto;
 }
 #content{
     height: 73%;
