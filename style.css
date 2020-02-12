@@ -21,10 +21,11 @@ body{
     grid-template-columns: [col1] 1fr [col2] 1fr [col3] 1fr;
 }
 #tabs a{
-margin: auto auto;
+    width: 100%;
 }
 .tabbutton{
     grid-column: auto;
+    text-align: center;
 }
 a{
     text-decoration: none;
