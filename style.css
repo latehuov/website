@@ -18,11 +18,14 @@ body{
     display: grid;
     grid-template-columns: [col1] 1fr [col2] 1fr [col3] 1fr;
 }
+#tabs a{
+    text-align: center;
+}
 .tabbutton{
     grid-column: auto;
     height: 100%;
+    display: inline-block;
     line-height: 100%;
-    text-align: center;
     padding: auto auto;
 }
 .tabbutton:hover{
