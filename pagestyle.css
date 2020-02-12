@@ -4,6 +4,7 @@ body{
     display: grid;
     grid-template-rows: [row1] 1fr, [row2] 0.5fr, [row3] 3fr, [row4] 1fr;
     background-color: rgb(252, 250, 254);
+    margin: 0;
 }
 #header{
     grid-row-start: 1;
