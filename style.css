@@ -18,7 +18,7 @@ body{
     display: grid;
     grid-template-columns: [col1] 1fr [col2] 1fr [col3] 1fr;
 }
-a.tabbutton{
+.tabbutton{
     grid-column: auto;
     height: 100%;
     line-height: 100%;
