@@ -22,6 +22,7 @@ body{
     grid-column: auto;
     height: 100%;
     line-height: 100%;
+    text-align: center;
     padding: auto auto;
 }
 .tabbutton:hover{
