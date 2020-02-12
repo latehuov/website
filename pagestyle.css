@@ -21,3 +21,7 @@ body{
     background-color: royalblue;
     width: 100%;
 }
+#footer{
+    background-color: slategrey;
+    margin-bottom: 0px;
+}
