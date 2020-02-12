@@ -2,7 +2,7 @@ body{
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: [row1] 1fr, [row2] 0.5fr, [row3] 3fr, [row4] 1fr;
+    grid-template-rows: [row1] 18%, [row2] 9%, [row3] 55%, [row4] 18%fr;
     background-color: rgb(252, 250, 254);
     margin: 0;
 }
