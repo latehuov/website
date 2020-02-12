@@ -9,7 +9,6 @@ body{
     margin: 0;
     font-family: monospace;
     font-size: x-large;
-    font-size-adjust: initial;
 }
 #header{
     height: 12%;
