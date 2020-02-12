@@ -7,6 +7,9 @@ body{
     display: block;
     background-color: rgb(252, 250, 254);
     margin: 0;
+    font-family: monospace;
+    font-size: x-large;
+    font-size-adjust: initial;
 }
 #header{
     height: 12%;
