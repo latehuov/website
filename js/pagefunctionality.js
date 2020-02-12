@@ -1,5 +1,6 @@
 function loadDoc(page) {
   var xhttp = new XMLHttpRequest();
+  console.log(page)
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
      document.getElementById("content").innerHTML = this.responseText;
@@ -16,6 +17,6 @@ window.onload=function loadFirst() {
      document.getElementById("content").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "./website/main.html", true);
+  xhttp.open("GET", "./website/about.html", true);
   xhttp.send();
 }
