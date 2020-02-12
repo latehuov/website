@@ -1,28 +1,25 @@
 body{
     width: 100%;
     height: 100%;
-    display: grid;
-    grid-template-rows: [row1] 18%, [row2] 9%, [row3] 55%, [row4] 18%fr;
+    display: block;
     background-color: rgb(252, 250, 254);
     margin: 0;
 }
 #header{
-    grid-row-start: 1;
-    grid-row-end: 2;
- background-color: seagreen;
+    height: 18%;
+    background-color: seagreen;
 }
 #tabs{
-    grid-row-start: 2;
-    grid-row-end: 3;
+    height: 9%;
     background-color: red;
 }
 #content{
-    grid-row-start: 3;
-    grid-row-end: 4;
+    height: 55%;
     background-color: royalblue;
     width: 100%;
 }
 #footer{
+    height: 18%;
     background-color: slategrey;
     margin-bottom: 0px;
 }
