@@ -20,7 +20,8 @@ body{
 }
 a.tabbutton{
     grid-column: auto;
-    line-height: auto;
+    display: inline-block;
+    line-height: 100%;
     margin: auto auto;
 }
 .tabbutton:hover{
