@@ -21,10 +21,10 @@ body{
 .tabbutton{
     grid-column: auto;
     line-height: 100%;
+    padding: 5%;
     margin: auto auto;
 }
 .tabbutton:hover{
-    padding: 10%;
     background-color: rgb(0, 255, 132);
 }
 a{
