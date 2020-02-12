@@ -20,7 +20,7 @@ body{
 }
 a.tabbutton{
     grid-column: auto;
-    display: inline-block;
+    height: 100%;
     line-height: 100%;
     margin: auto auto;
 }
