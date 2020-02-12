@@ -23,6 +23,17 @@ body{
     line-height: 100%;
     margin: auto auto;
 }
+.tabbutton:hover{
+    background-color: rgb(0, 255, 132);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 123, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
 #content{
     height: 73%;
     width: 100%;
