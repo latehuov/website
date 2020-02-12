@@ -20,12 +20,13 @@ body{
 }
 #tabs a{
     text-align: center;
+    line-height: 100%;
+    
 }
 .tabbutton{
     grid-column: auto;
     height: 100%;
     display: inline-block;
-    line-height: 100%;
     margin: auto;
 }
 .tabbutton:hover{
