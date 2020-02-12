@@ -22,7 +22,7 @@ body{
     grid-column: auto;
     height: 100%;
     line-height: 100%;
-    margin: auto auto;
+    padding: auto auto;
 }
 .tabbutton:hover{
     background-color: rgb(0, 255, 132);
