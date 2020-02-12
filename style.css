@@ -15,7 +15,7 @@ body{
     background-color: rgb(0, 200, 210);
 }
 #tabs{
-    height: 5%;
+    height: fit-content;
     background-color: rgb(191, 252, 255);
     display: grid;
     grid-template-columns: [col1] 1fr [col2] 1fr [col3] 1fr;
@@ -38,6 +38,7 @@ a:hover{
 #content{
     height: 73%;
     width: 100%;
+    font-size: initial;
 }
 #footer{
     height: 10%;
