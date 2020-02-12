@@ -20,6 +20,8 @@ body{
 }
 .tabbutton{
     grid-column: auto;
+    line-height: 100%;
+    margin: auto auto;
 }
 #content{
     height: 73%;
