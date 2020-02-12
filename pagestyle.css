@@ -20,3 +20,9 @@ body{
     grid-column-end: 5;
     background-color: red;
 }
+.tabbutton{
+    grid-column: span 1;
+}
+#content{
+    background-color: royalblue;
+}
