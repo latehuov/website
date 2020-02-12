@@ -38,11 +38,14 @@ a:hover{
     cursor: pointer;
 }
 #content{
-    height: 73%;
+    height: 75%;
     width: 100%;
     font-size: initial;
+    padding-bottom: auto;
 }
 #footer{
+    position: relative;
+    bottom: 0px;
     height: 10%;
     background-color: rgb(0, 200, 210);
     margin-bottom: 0px;
