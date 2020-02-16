@@ -47,13 +47,14 @@ a:hover{
 #footer{
     position: relative;
     grid-template-rows: [row1] 100%;
+    grid-template-columns: auto;
     bottom: 0px;
     height: 10%;
     background-color: rgb(0, 200, 210);
     margin-bottom: 0px;
 }
 .footcontent{
-    width: 50%;
+    grid-column: auto;
     height: 100%;
     font-size: xx-small;
     text-align: right;
