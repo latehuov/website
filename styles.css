@@ -48,7 +48,7 @@ a:hover{
     position: relative;
     display:grid;
     grid-template-rows: 82% 15%;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 75% 25%;
     align-self:right;
     bottom: 0px;
     height: 13%;
