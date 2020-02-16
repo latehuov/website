@@ -44,20 +44,14 @@ a:hover{
     font-size: initial;
     padding-bottom: auto;
 }
-#content{
-    height: 75%;
-    width: 100%;
-    font-size: initial;
-    padding-bottom: auto;
-}
 #footer{
     position: relative;
     display:grid;
-    grid-template-rows: 90% 10%;
+    grid-template-rows: 82% 15%;
     grid-template-columns: 80% 20%;
     align-self:right;
     bottom: 0px;
-    height: 10%;
+    height: 13%;
     background-color: rgb(0, 200, 210);
     margin-bottom: 0px;
 }
