@@ -1,8 +1,9 @@
 html{
     height: 100%;
+    width: 100%;
 }
 body{
-    width: 100%;
+    width: 85%;
     height: 100%;
     display: block;
     background-color: rgb(252, 250, 254);
@@ -49,4 +50,9 @@ a:hover{
     height: 10%;
     background-color: rgb(0, 200, 210);
     margin-bottom: 0px;
+}
+.footcontent{
+    width: fit-content;
+    height: 100%;
+    font-size: initial;
 }
