@@ -20,11 +20,10 @@ body{
 }
 #cat{
     grid-column: 1;
-    align-content: left;
 }
 #dog{
     grid-column: 3;
-    text-align: right;
+    margin-right: 0px;
 }
 #headText{
     grid-column: 2;
@@ -32,9 +31,6 @@ body{
     text-align: center;
     line-height: 100%;
     margin: auto auto;
-}
-.scale{
-    height: 100%;
 }
 #tabs{
     height: fit-content;
