@@ -29,6 +29,7 @@ body{
     align-content: right;
 }
 #headText{
+    grid-column: 2;
     text-align: center;
     line-height: 100%;
     margin: auto auto;
