@@ -24,7 +24,7 @@ body{
 }
 #dog{
     grid-column: 3;
-    margin-right: auto;
+    margin-left: auto;
     height: 100%;
 }
 #headText{
