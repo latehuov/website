@@ -47,7 +47,7 @@ a:hover{
 #footer{
     position: relative;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: [col1] 1fr [col2] 1fr [col3] 1fr;
     bottom: 0px;
     height: 10%;
     background-color: rgb(0, 200, 210);
@@ -56,5 +56,5 @@ a:hover{
 .footcontent{
     width: fit-content;
     height: 100%;
-    font-size: initial;
+    font-size: small;
 }
