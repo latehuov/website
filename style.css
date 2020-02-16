@@ -46,8 +46,6 @@ a:hover{
 }
 #footer{
     position: relative;
-    display: grid;
-    grid-template-columns: [col1] 1fr [col2] 1fr [col3] 1fr;
     grid-template-rows: [row1] 100%;
     bottom: 0px;
     height: 10%;
@@ -55,6 +53,7 @@ a:hover{
     margin-bottom: 0px;
 }
 .footcontent{
+    width: 33.3%;
     height: 100%;
     font-size: small;
 }
