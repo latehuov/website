@@ -48,13 +48,13 @@ a:hover{
     position: relative;
     display: grid;
     grid-template-columns: [col1] 1fr [col2] 1fr [col3] 1fr;
+    grid-template-rows: [row1] 100%;
     bottom: 0px;
     height: 10%;
     background-color: rgb(0, 200, 210);
     margin-bottom: 0px;
 }
 .footcontent{
-    width: fit-content;
     height: 100%;
     font-size: small;
 }
