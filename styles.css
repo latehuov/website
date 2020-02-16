@@ -20,12 +20,10 @@ body{
 }
 #cat{
     grid-column: 1;
-    height: 100%;
     align-content: left;
 }
 #dog{
     grid-column: 3;
-    height: 100%;
     text-align: right;
 }
 #headText{
@@ -34,6 +32,9 @@ body{
     text-align: center;
     line-height: 100%;
     margin: auto auto;
+}
+.scale{
+    height: 100%;
 }
 #tabs{
     height: fit-content;
