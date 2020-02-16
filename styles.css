@@ -61,7 +61,7 @@ a:hover{
 #info{
     grid-column: 2;
     text-align: left;
-    font-size: larger;
+    font-size: large;
 }
 #c{
     grid-row: 2;
